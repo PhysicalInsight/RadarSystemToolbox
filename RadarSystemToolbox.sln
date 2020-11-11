@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.MathLibrary", "PhysicalInsight.MathLibrary\PhysicalInsight.MathLibrary.csproj", "{E6DA5760-6D9D-4A0A-972C-0EDA08607795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.AISDatabase", "PhysicalInsight.AISDatabase\PhysicalInsight.AISDatabase.csproj", "{6CDF387E-7183-4FD0-95DE-23BB6B1317F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.AISDatabase.Tests", "PhysicalInsight.AISDatabase.Tests\PhysicalInsight.AISDatabase.Tests.csproj", "{79DAFB07-9639-493F-BBD3-527B874D0900}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E6DA5760-6D9D-4A0A-972C-0EDA08607795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6DA5760-6D9D-4A0A-972C-0EDA08607795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6DA5760-6D9D-4A0A-972C-0EDA08607795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDF387E-7183-4FD0-95DE-23BB6B1317F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDF387E-7183-4FD0-95DE-23BB6B1317F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDF387E-7183-4FD0-95DE-23BB6B1317F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDF387E-7183-4FD0-95DE-23BB6B1317F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DAFB07-9639-493F-BBD3-527B874D0900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DAFB07-9639-493F-BBD3-527B874D0900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DAFB07-9639-493F-BBD3-527B874D0900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DAFB07-9639-493F-BBD3-527B874D0900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

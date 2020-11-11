@@ -1,0 +1,16 @@
+
+USE AIS
+GO
+
+SET DATEFORMAT DMY
+
+BULK INSERT vwAISData
+FROM 'C:\Temp\aisdk_20181102.csv'
+WITH
+(
+    FIRSTROW        = 2,
+    FIELDQUOTE      = '"',
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR   = '0x0a',
+    TABLOCK
+)
