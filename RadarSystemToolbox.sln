@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDatabase
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDatabase.Tests", "PhysicalInsight.AISDatabase.Tests\PhysicalInsight.AISDatabase.Tests.csproj", "{79DAFB07-9639-493F-BBD3-527B874D0900}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.AISDataService.Interfaces", "PhysicalInsight.AISDataService.Interfaces\PhysicalInsight.AISDataService.Interfaces.csproj", "{D8C8FF4E-06EA-4CDC-8445-CBA843A90394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDataService.Interfaces", "PhysicalInsight.AISDataService.Interfaces\PhysicalInsight.AISDataService.Interfaces.csproj", "{D8C8FF4E-06EA-4CDC-8445-CBA843A90394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.AISDataService", "PhysicalInsight.AISDataService\PhysicalInsight.AISDataService.csproj", "{540EE0EE-816E-462B-BBCF-051824A78ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDataService", "PhysicalInsight.AISDataService\PhysicalInsight.AISDataService.csproj", "{540EE0EE-816E-462B-BBCF-051824A78ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.AISDataService.Tests", "PhysicalInsight.AISDataService.Tests\PhysicalInsight.AISDataService.Tests.csproj", "{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{540EE0EE-816E-462B-BBCF-051824A78ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{540EE0EE-816E-462B-BBCF-051824A78ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{540EE0EE-816E-462B-BBCF-051824A78ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

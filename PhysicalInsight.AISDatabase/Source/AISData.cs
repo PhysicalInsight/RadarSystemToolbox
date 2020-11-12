@@ -24,7 +24,7 @@ namespace PhysicalInsight.AISDatabase
 
         public double? CourseOverGround { get; set; }
 
-        public double Heading { get; set; }
+        public double? Heading { get; set; }
 
         public string IMO { get; set; }
 

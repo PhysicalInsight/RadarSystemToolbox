@@ -15,7 +15,7 @@ namespace PhysicalInsight.AISDatabase.Tests
             var aisService = new AISService();
 
             // Act:
-            var aisData = aisService.GetByMMSI(mmsi);
+            var aisData = aisService.GetAISDataByMMSI(mmsi);
 
             // Assert:
         }
@@ -32,7 +32,7 @@ namespace PhysicalInsight.AISDatabase.Tests
             var endTime = startTime.AddSeconds(100);
 
             // Act:
-            var aisData = aisService.GetByMMSI(mmsi, startTime, endTime);
+            var aisData = aisService.GetAISDataByMMSI(mmsi, startTime, endTime);
 
             // Assert:
         }
