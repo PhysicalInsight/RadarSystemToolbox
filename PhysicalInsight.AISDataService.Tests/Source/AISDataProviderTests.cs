@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PhysicalInsight.AISDatabase;
+using Shouldly;
 using System;
 
 namespace PhysicalInsight.AISDataService.Tests
@@ -15,13 +16,15 @@ namespace PhysicalInsight.AISDataService.Tests
 
             var aisDataProvider = new AISDataProvider(aisService);
 
-            var currentTime = new DateTime(2018, 11, 02, 10, 00, 00);
+            var currentTime = new DateTime(2020, 11, 01, 10, 00, 00);
+
+            var expectedCount = 1645;
 
             // Act:
-            aisDataProvider.GetAISData(currentTime);
+            var aisData = aisDataProvider.GetAISData(currentTime);
 
             // Assert:
-            Assert.Inconclusive();
+            aisData.Count.ShouldBe(expectedCount);
         }
     }
 }

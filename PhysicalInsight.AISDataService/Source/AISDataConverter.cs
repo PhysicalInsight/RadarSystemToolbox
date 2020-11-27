@@ -1,7 +1,4 @@
 ﻿using PhysicalInsight.AISDataService.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PhysicalInsight.AISDataService
 {

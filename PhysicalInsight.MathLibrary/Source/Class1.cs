@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PhysicalInsight.MathLibrary
+﻿namespace PhysicalInsight.MathLibrary
 {
     public class Class1
     {

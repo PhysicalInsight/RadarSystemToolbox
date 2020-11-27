@@ -8,11 +8,10 @@ namespace PhysicalInsight.AISDataService
     public class AISDataProvider : IAISDataProvider
     {
         public AISDatabase.IAISService AISService { get; set; }
-        
+
         public List<AISData> AISDataCache { get; set; }
 
         public List<List<AISData>> AISDataCachePerMMSI { get; set; }
-
 
         public AISDataProvider(AISDatabase.IAISService aisService)
         {
