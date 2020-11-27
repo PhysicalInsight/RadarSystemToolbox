@@ -1,11 +1,9 @@
+USE AIS;
 
-USE AIS
-GO
-
-SET DATEFORMAT DMY
+SET DATEFORMAT DMY;
 
 BULK INSERT vwAISData
-FROM 'C:\Temp\aisdk_20181102.csv'
+FROM 'C:\Temp\aisdk_20201101.csv'
 WITH
 (
     FIRSTROW        = 2,
@@ -13,4 +11,4 @@ WITH
     FIELDTERMINATOR = ',',
     ROWTERMINATOR   = '0x0a',
     TABLOCK
-)
+);

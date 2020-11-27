@@ -1,6 +1,6 @@
-USE AIS
-GO
-DROP TABLE AISData;
+USE AIS;
+
+DROP TABLE IF EXISTS AISData;
 
 CREATE TABLE AISData (
     Id                         INT PRIMARY KEY IDENTITY (1,1),
@@ -30,4 +30,12 @@ CREATE TABLE AISData (
     SizeB                      VARCHAR(50)     NULL,
     SizeC                      VARCHAR(50)     NULL,
     SizeD                      VARCHAR(50)     NULL
-)
+);
+
+CREATE INDEX IDX_MMSI      ON AISData (MMSI);
+
+CREATE INDEX IDX_TimeStamp ON AISData (TimeStamp);
+
+CREATE INDEX IDX_Latitude  ON AISData (Latitude);
+
+CREATE INDEX IDX_Longitude ON AISData (Longitude);
