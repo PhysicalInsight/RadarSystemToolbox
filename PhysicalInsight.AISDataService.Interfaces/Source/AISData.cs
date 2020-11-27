@@ -2,46 +2,46 @@
 
 namespace PhysicalInsight.AISDataService.Interfaces
 {
-    public class AISData
+    public record AISData
     {
-        public int MMSI { get; set; }
+        public int MMSI { get; init; }
 
-        public DateTime TimeStamp { get; set; }
+        public DateTime TimeStamp { get; init; }
 
-        public double Latitude { get; set; }
+        public double Latitude { get; init; }
 
-        public double Longitude { get; set; }
+        public double Longitude { get; init; }
 
-        public string NavigationalStatus { get; set; }
+        public string NavigationalStatus { get; init; }
 
-        public double RateOfTurn { get; set; }
+        public double RateOfTurn { get; init; }
 
-        public double SpeedOverGround { get; set; }
+        public double SpeedOverGround { get; init; }
 
-        public double CourseOverGround { get; set; }
+        public double CourseOverGround { get; init; }
 
-        public double Heading { get; set; }
+        public double Heading { get; init; }
 
-        public string IMO { get; set; }
+        public string IMO { get; init; }
 
-        public string Callsign { get; set; }
+        public string Callsign { get; init; }
 
-        public string Name { get; set; }
+        public string Name { get; init; }
 
-        public string ShipType { get; set; }
+        public string ShipType { get; init; }
 
-        public string TypeOfPositionFixingDevice { get; set; }
+        public string TypeOfPositionFixingDevice { get; init; }
 
-        public double Width { get; set; }
+        public double Width { get; init; }
 
-        public double Length { get; set; }
+        public double Length { get; init; }
 
-        public double Draught { get; set; }
+        public double Draught { get; init; }
 
-        public string CargoType { get; set; }
+        public string CargoType { get; init; }
 
-        public string Destination { get; set; }
+        public string Destination { get; init; }
 
-        public DateTime ETA { get; set; }
+        public DateTime ETA { get; init; }
     }
 }
