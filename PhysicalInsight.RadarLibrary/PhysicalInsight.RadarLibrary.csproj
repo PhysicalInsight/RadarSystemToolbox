@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MathNet.Numerics" Version="4.12.0" />
+    <ProjectReference Include="..\PhysicalInsight.MathLibrary\PhysicalInsight.MathLibrary.csproj" />
   </ItemGroup>
 
 </Project>

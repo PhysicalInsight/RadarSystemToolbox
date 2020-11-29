@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDataServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDataService", "PhysicalInsight.AISDataService\PhysicalInsight.AISDataService.csproj", "{540EE0EE-816E-462B-BBCF-051824A78ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.AISDataService.Tests", "PhysicalInsight.AISDataService.Tests\PhysicalInsight.AISDataService.Tests.csproj", "{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicalInsight.AISDataService.Tests", "PhysicalInsight.AISDataService.Tests\PhysicalInsight.AISDataService.Tests.csproj", "{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalInsight.RadarLibrary", "PhysicalInsight.RadarLibrary\PhysicalInsight.RadarLibrary.csproj", "{539164F7-B89C-42FB-BEBF-BFAF4E37508A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78E61B7-77F7-4DCC-9E10-94DE681A37E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539164F7-B89C-42FB-BEBF-BFAF4E37508A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539164F7-B89C-42FB-BEBF-BFAF4E37508A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539164F7-B89C-42FB-BEBF-BFAF4E37508A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539164F7-B89C-42FB-BEBF-BFAF4E37508A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
