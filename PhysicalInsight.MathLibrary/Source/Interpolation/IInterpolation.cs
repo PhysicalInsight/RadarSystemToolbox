@@ -2,9 +2,9 @@
 {
     public interface IInterpolation
     {
-        double[] X { get; set; }
+        double[] X { get; init; }
 
-        double[] Y { get; set; }
+        double[] Y { get; init; }
 
         double Interpolate(double x);
     }

@@ -2,11 +2,11 @@
 {
     public class Interpolation : IInterpolation
     {
-        public double[] X { get; set; }
+        public double[] X { get; init; }
 
-        public double[] Y { get; set; }
+        public double[] Y { get; init; }
 
-        private MathNet.Numerics.Interpolation.IInterpolation Interpolant;
+        private MathNet.Numerics.Interpolation.IInterpolation Interpolant { get; set; }
 
         public Interpolation(double[] x, double[] y)
         {

@@ -14,6 +14,7 @@ namespace PhysicalInsight.MathLibrary
 
         // Length
         public const double MeterToFoot = 1 / FootToMeter;
+
         public const double FootToMeter = 0.3048;
 
         public const double MeterToKilometer = 1 / KilometerToMeter;
@@ -24,10 +25,12 @@ namespace PhysicalInsight.MathLibrary
 
         // Speed
         public const double MeterPerSecondToKnot = 3600.0 / NauticalMileToMeter;
+
         public const double KnotToMeterPerSecond = 1.0 / MeterPerSecondToKnot;
 
         // Acceleration
         public const double MeterPerSecondSquaredToG = 1.0 / GToMeterPerSecondSquared;
+
         public const double GToMeterPerSecondSquared = PhysicalConstants.GravitationalAcceleration;
     }
 }
